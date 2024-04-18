@@ -1,0 +1,86 @@
+body {
+    background-image: url('images/bwg1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    border: 2px solid #31363F; /* You can change color */
+    padding: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+.centered {
+    text-align: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Rounded shape */
+    overflow: hidden; /* Hide overflowing parts of the image */
+    border: 5px solid black; /* Black border */
+}
+
+.profile-image img {
+    width: 100%; /* Ensure the image takes up the full space */
+    height: 100%; /* Ensure the image takes up the full space */
+    object-fit: cover; /* Cover the entire area even if it's cropped */
+    border-radius: 50%; /* Ensure the image is rounded */
+}
+
+
+.displayed-name a{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.displayed-name a:hover {
+    color: #80BCBD; /* Change to your desired color */
+    background-color: #BCE6EB;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #0E2431; /* You can change color */
+    padding: 8px;
+}
+
+table th {
+    background-color: #BCE6EB; /* You can change color */
+}
+
+.introduction h3 {
+    background-color: #BCE6EB; /* Background color */
+    padding: 10px;
+    border-radius: 0px; /* Optional: adds rounded corners */
+}
+
+.expertise h3{
+    background-color: #BCE6EB; /* Background color */
+    padding: 10px;
+    border-radius: 0px; /* Optional: adds rounded corners */
+}
+
+.center h4{
+    background-color: #BCE6EB; /* Background color */
+    padding: 10px;
+    border-radius: 0px; /* Optional: adds rounded corners */
+}
+
+.applications h4{
+    background-color: #BCE6EB; /* Background color */
+    padding: 10px;
+    border-radius: 0px; /* Optional: adds rounded corners */
+}
+
+.education h4 {
+    border-bottom: 3px solid black; /* Black line under the header */
+    padding-bottom: 10px; /* Optional: Add some space between the line and the table */
+}
+
+}
